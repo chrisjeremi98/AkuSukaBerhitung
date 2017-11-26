@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.hafiz.akusukaberhitung.MateriBagi">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="466dp"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:fontFamily="sans-serif"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:id="@+id/textView"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="      Pembagian merupakan operasi matematika yang membagi suatu angka dengan angka lainnya sehingga menghasilkan nilai tertentu yang pasti. Simbol untuk operasi pembagian adalah tanda titik dua ( : ) atau ( ÷ ).
+Contoh:
+4 : 2 = 2
+        CARA: Kamu punya 4 buah kelereng. 4 buah kelereng tersebut kamu beri kepada temanmu joni dan jono sama rata yaitu sama-sama mendapatkan 2 buah kelereng.  Sehingga masing-masing joni dan jono memiliki 2 buah kelereng.
+"
+                android:textColor="@color/iron" />
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="194dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/quizbagi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ayo Latihan!!!" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context="com.example.hafiz.akusukaberhitung.SoalKali1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textnilai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="17dp"
+            android:textColor="@color/iron"
+            android:text="Nilai mu:"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/nilai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textnilai"
+            android:layout_alignBottom="@+id/textnilai"
+            android:layout_marginStart="40dp"
+            android:textColor="@color/iron"
+            android:layout_toEndOf="@+id/textnilai"
+            android:text="0"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/soal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berapakah 3 x 3"
+            android:textSize="25dp"
+            android:textColor="@color/iron"
+            android:layout_above="@+id/jawaban1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="45dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:id="@+id/jawaban1"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:text="9"
+            android:layout_height="wrap_content"
+            android:id="@+id/jawaban2"
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/jawaban1"
+            android:layout_alignStart="@+id/jawaban1" />
+        <Button
+            android:id="@+id/jawaban3"
+            android:layout_width="wrap_content"
+            android:text="3"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:layout_below="@+id/jawaban2"
+            android:layout_alignStart="@+id/jawaban2" />
+
+    </RelativeLayout>
+
+</LinearLayout>

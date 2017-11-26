@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.hafiz.akusukaberhitung.SoalTambah5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textnilai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="17dp"
+            android:text="Nilai mu:"
+            android:textColor="@color/iron"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/nilai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textnilai"
+            android:layout_alignBottom="@+id/textnilai"
+            android:layout_marginStart="40dp"
+            android:layout_toEndOf="@+id/textnilai"
+            android:textColor="@color/iron"
+            android:textSize="25dp"
+            tools:text="0" />
+
+        <TextView
+            android:id="@+id/soal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/jawaban1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="45dp"
+            android:text="Berapakah 129+154?"
+            android:textColor="@color/iron"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/jawaban1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="383" />
+
+        <Button
+            android:id="@+id/jawaban2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/jawaban1"
+            android:layout_below="@+id/jawaban1"
+            android:layout_marginTop="18dp"
+            android:text="279" />
+
+        <Button
+            android:id="@+id/jawaban3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/jawaban2"
+            android:layout_below="@+id/jawaban2"
+            android:layout_marginTop="18dp"
+            android:text="341" />
+
+    </RelativeLayout>
+
+</LinearLayout>

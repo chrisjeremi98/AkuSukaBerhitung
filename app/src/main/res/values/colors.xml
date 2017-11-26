@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#282830</color>
+    <color name="colorPrimaryDark">#282830</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pink">#FFFF00FF</color>
+    <color name="violet">#FF800080</color>
+    <color name="white">#FFFFFF</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="buttonNormal">#C04040</color>
+</resources>

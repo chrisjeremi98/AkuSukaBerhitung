@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hafiz.akusukaberhitung">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity android:name=".QuizMainActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MateriTambah" />
+        <activity android:name=".MateriKurang" />
+        <activity android:name=".MateriBagi" />
+        <activity android:name=".MateriKali" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".MenuMateri" />
+        <activity android:name=".SoalTambah1" />
+        <activity android:name=".SoalKurang1" />
+        <activity android:name=".SoalKali1" />
+        <activity android:name=".SoalBagi1" />
+        <activity android:name=".SoalTambah2" />
+        <activity android:name=".SoalTambah3" />
+        <activity android:name=".SoalTambah4" />
+        <activity android:name=".SoalTambah5" />
+        <activity android:name=".TotalSkorActivity" />
+        <activity android:name=".SoalKurang2" />
+        <activity android:name=".SoalKurang3" />
+        <activity android:name=".SoalKurang4" />
+        <activity android:name=".SoalKurang5" />
+        <activity android:name=".SoalKali2" />
+        <activity android:name=".SoalKali3" />
+        <activity android:name=".SoalKali4" />
+        <activity android:name=".SoalKali5" />
+        <activity android:name=".SoalBagi2" />
+        <activity android:name=".SoalBagi3" />
+        <activity android:name=".SoalBagi5" />
+        <activity android:name=".SoalBagi4"></activity>
+    </application>
+
+</manifest>

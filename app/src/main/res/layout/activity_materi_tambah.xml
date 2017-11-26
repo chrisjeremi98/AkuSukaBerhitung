@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hafiz.akusukaberhitung.MateriTambah"
+    android:background="@color/colorPrimaryDark">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="466dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:fontFamily="sans-serif"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:id="@+id/textView"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/iron"
+                android:text="      Penjumlahan merupakan operasi matematika yang menjumlahkan suatu angka dengan angka lainnya sehingga menghasilkan nilai tertentu yang pasti. Simbol untuk operasi penjumlahan adalah tanda plus ( + ).
+Contoh:
+5 + 4 = 9
+    CARA: Kamu punya 5 buah kelereng dan ambil 4 buah kelereng kelereng lagi, gabungkan kelereng tersebut. Lalu hitung berapa jumlah kelereng sekarang.
+" />
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="194dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+
+        <Button
+            android:id="@+id/quiztambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ayo Latihan!!!" />
+    </LinearLayout>
+
+</RelativeLayout>
+

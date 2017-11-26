@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "35306617842",
+    "firebase_url": "https://akusukaberhitung.firebaseio.com",
+    "project_id": "akusukaberhitung",
+    "storage_bucket": "akusukaberhitung.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35306617842:android:a776766a7a285bc6",
+        "android_client_info": {
+          "package_name": "com.example.hafiz.akusukaberhitung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35306617842-vmk9q0kd64fk95q3vkmvpq6gnqsgqe43.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hafiz.akusukaberhitung",
+            "certificate_hash": "6ecdcc67576ee964739b9adad993de7d8ccdd7a8"
+          }
+        },
+        {
+          "client_id": "35306617842-q3opsamarg0ft974fd1c5l7duu7uepo1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQJAz7jnzUXN6uu15hhG_QShrpXr83Jsw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35306617842-q3opsamarg0ft974fd1c5l7duu7uepo1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

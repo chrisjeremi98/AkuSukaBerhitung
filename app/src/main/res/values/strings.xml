@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Aku Suka Berhitung</string>
+    <string name="minimum_password">Password  Terlalu Pendek Minimal 6 digit</string>
+    <string name="auth_failed">Login Gagal Mohon cek kembali username dan password</string>
+</resources>
